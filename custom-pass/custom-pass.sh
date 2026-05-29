@@ -19,7 +19,7 @@ ____    ____  _______ .__   __.   ______   .___  ___.
 printf "\n"
 printf "\n"
 echo
-read -p "[#] Enter Instagram ID/Username : " usrnm
+read -p "[#] Enter Instagram ID/marinciic.s : " usrnm
 echo
 read -p "[#] Enter Password-list path (enter the full file path and check that it has the read-permission) : " inspass
 echo
@@ -28,7 +28,7 @@ then
 echo -e  "$ylo >>> exiting... <<<$rset"        
 else
 
-  instagram-py --username $usrnm --password-list $inspass
+  instagram-py --marinciic.s $usrnm --password-list $inspass
 
 echo
 sleep 30.0
